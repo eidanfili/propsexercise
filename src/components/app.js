@@ -14,9 +14,8 @@ export default class App extends Component {
           nocheese={false}
           noburger={false}
           nobottbun={false}
-          asdf="this is my random prop"
         />
-        <Yinandyang />
+        <Yinandyang trueorfalse={false} />
       </div>
     );
   }

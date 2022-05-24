@@ -1,17 +1,17 @@
 import React from "react";
 
 // const props = {
-//   trueorfalse: true,
-// };
+//     quote:"a marvelous quote!"
+// }
 
-export default function Yinandyang(props) {
+export default function Quote(props) {
   const logr = () => {
     console.log(props);
   };
   return (
     <div>
       {logr()}
-      {props.trueorfalse ? <h1>it was true</h1> : <h1>it was false</h1>}
+      <h1>{props.quote}</h1>
     </div>
   );
 }

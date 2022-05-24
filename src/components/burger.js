@@ -1,5 +1,14 @@
 import React from "react";
 
+// const props = {
+//   nobottbun: false,
+//   noburger: false,
+//   nocheese: false,
+//   nolettuce: false,
+//   notomato: false,
+//   notopbun: false,
+// };
+
 export default function Burger(props) {
   const logr = () => {
     console.log(props);
