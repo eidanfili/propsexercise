@@ -9,7 +9,7 @@ export default function Quote(props) {
     console.log(props);
   };
   return (
-    <div>
+    <div className="cont">
       {logr()}
       <h1>{props.quote}</h1>
     </div>

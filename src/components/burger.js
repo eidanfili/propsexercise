@@ -1,12 +1,12 @@
 import React from "react";
 
 // const props = {
-//   nobottbun: false,
-//   noburger: false,
-//   nocheese: false,
-//   nolettuce: false,
-//   notomato: false,
-//   notopbun: false,
+//   bottbun: false,
+//   patty: false,
+//   cheese: false,
+//   lettuce: false,
+//   tomato: false,
+//   topbun: false,
 // };
 
 export default function Burger(props) {
@@ -15,14 +15,17 @@ export default function Burger(props) {
   };
 
   return (
-    <div className="plate">
+    <div className="plate cont">
       {logr()}
-      {props.notopbun ? "" : <div className="bun"></div>}
-      {props.nolettuce ? "" : <div className="lettuce"></div>}
-      {props.notomato ? "" : <div className="tomato"></div>}
-      {props.nocheese ? "" : <div className="cheese"></div>}
-      {props.noburger ? "" : <div className="burger"></div>}
-      {props.nobottbun ? "" : <div className="bun"></div>}
+      <h2 className="LOUDBURGER">BURGER!</h2>
+      <div className="burger">
+        <div className="bun"></div>
+        <div className="lettuce"></div>
+        <div className="tomato"></div>
+        <div className="cheese"></div>
+        <div className="patty"></div>
+        <div className="bun"></div>
+      </div>
     </div>
   );
 }
