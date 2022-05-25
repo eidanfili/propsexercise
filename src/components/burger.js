@@ -17,7 +17,7 @@ export default function Burger(props) {
   return (
     <div className="plate cont">
       {logr()}
-      <h2 className="LOUDBURGER">BURGER!</h2>
+      <h2 className="LOUDBURGER">{props.title}</h2>
       <div className="burger">
         <div className="bun"></div>
         <div className="lettuce"></div>

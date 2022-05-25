@@ -315,3 +315,16 @@ body {
     z-index: -10;
   }
 }
+
+.keyframeexmpl {
+  animation: exmpl 1s ease-in-out;
+}
+
+@keyframes exmpl {
+  0% {
+    transform: translateX(500px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}

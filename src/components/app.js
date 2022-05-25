@@ -8,14 +8,7 @@ export default class App extends Component {
     return (
       <div className="app">
         <Yinandyang trueorfalse={false} />
-        <Burger
-          topbun={true}
-          lettuce={true}
-          tomato={true}
-          cheese={true}
-          patty={true}
-          bottbun={true}
-        />
+        <Burger title="BURGER!" />
         <Quote quote="You shall not paaasss!!" />
       </div>
     );
